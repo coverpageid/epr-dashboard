@@ -1,0 +1,14 @@
+# Keamanan: jangan pernah publish data lokal yang memuat nama toko /
+# transaksi asli. File di bawah ini berisi data EPR & transaksi TIDAK disamarkan.
+data/epr.db
+data/epr_master.csv
+data/epp_master.csv
+data/sku.xlsx
+data/template_q.xlsx
+data/template_verified.xlsx
+upload/
+out/
+__pycache__/
+*.pyc
+
+# docs/ (dashboard yang SUDAH disamarkan) sengaja TIDAK di-ignore -> boleh push.
